@@ -384,7 +384,7 @@ ExpressLRS 4.0 improves upon this with a new layout allowing for more sections o
     - Regulatory Domain: This only applies to the 900MHz system. This field allows users to change the Regulatory Domain for their device.
 
         !!! abstract "What about 2.4GHz?"
-            The EU_CE Regulatory Domain setting is a Compile-time option and the LBT code needs to be baked in for it to work properly.
+            EU CE (LBT) for 2.4GHz is chosen when the firmware is flashed, in the Configurator. It can't be changed here; flash the device again to change it. Receivers keep it when they're updated from the radio's SD card.
     
     - WiFi "Auto On" Interval (in seconds): This field allows you to change how soon WiFi automatically activates when the device is powered up and it's not getting a valid CRSF signal (for TX Modules) or sync packets (for Receivers).
 
